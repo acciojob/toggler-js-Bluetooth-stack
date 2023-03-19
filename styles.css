@@ -43,6 +43,34 @@ input:checked + .slider:before{
 	left:39px;
 }
 
+.g1{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	font-size: 20px;
+}
+.g2{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	font-size: 20px;
+}
+.g3{
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	text-align: center;
+	font-size: 20px;
+}
+.g3 .fast{
+	margin-left:15px;
+}
+h2{
+	text-align:center;
+}
+
 
 
 
