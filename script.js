@@ -11,9 +11,9 @@ arr.forEach((toggle)=>{
 		}
 		if(count>2){
 			toggle.checked=false;
-			count = 0;
+			// count = 0;
 		}
-		toggle.disabled=false;
+		// toggle.disabled=false;
     })
 })
 
