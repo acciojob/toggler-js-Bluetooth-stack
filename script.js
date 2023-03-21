@@ -1,7 +1,7 @@
 const g = document.querySelector('#good');
 const c = document.querySelector('#cheap');
 const f = document.querySelector('#fast');
-
+g.checked=true;
 const tog = document.querySelectorAll('.toggle')
 let arr = Array.from(tog);
 arr.forEach((toggle)=>{
