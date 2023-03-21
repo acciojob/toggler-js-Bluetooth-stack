@@ -7,21 +7,31 @@ let arr = Array.from(tog);
 arr.forEach((toggle)=>{
     toggle.addEventListener('click', (e)=>{
         if(g.checked && c.checked){
-            f.checked=false;
+			if(f.checked){
+	            f.checked=false;
+			}
         }
         else if(g.checked){
             if(f.checked){
-                c.disabled=true;
+				if(c.checked){
+					c.checked=false;
+				}
+	            c.disabled=true;
             }
             else{
+				// c.checked=true;
                 c.disabled=false;
             }
         }
         else if(c.checked){
             if(f.checked){
-                g.disabled=true;
+				if(g.checked){
+					g.checked=false;
+				}
+	            g.disabled=true;
             }
             else{
+				// g.checked=true;
                 g.disabled=false;
             }
         }
