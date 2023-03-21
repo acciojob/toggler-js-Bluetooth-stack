@@ -6,6 +6,7 @@ const tog = document.querySelectorAll('.toggle')
 let arr = Array.from(tog);
 arr.forEach((toggle)=>{
     toggle.addEventListener('click', (e)=>{
+		g.checked=false;
         if(g.checked && c.checked){
 			if(f.checked){
 	            f.checked=false;
