@@ -16,6 +16,10 @@ let limit = 2;
 				if(g.checked){
 					g.checked=false;
 				}
+				const c = document.querySelector('#cheap');
+				if(c.checked){
+					c.checked=false;
+				}
 			}
 		}
 	}
@@ -28,7 +32,6 @@ let limit = 2;
 
 
 
-// const c = document.querySelector('#cheap');
 // const f = document.querySelector('#fast');
 // const tog = document.querySelectorAll('.toggle')
 // let count = 0;
