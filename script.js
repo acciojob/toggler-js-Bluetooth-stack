@@ -12,6 +12,10 @@ let limit = 2;
 				console.log("You can select maximum of " + limit + " checkbox.");
 				// alert("You can select maximum of " + limit + " checkbox.");
 				this.checked = false;
+				const g = document.querySelector('#good');
+				if(g.checked){
+					g.checked=false;
+				}
 			}
 		}
 	}
@@ -23,7 +27,7 @@ let limit = 2;
 
 
 
-// const g = document.querySelector('#good');
+
 // const c = document.querySelector('#cheap');
 // const f = document.querySelector('#fast');
 // const tog = document.querySelectorAll('.toggle')
