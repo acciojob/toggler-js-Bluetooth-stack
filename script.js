@@ -13,13 +13,13 @@ let limit = 2;
 				// alert("You can select maximum of " + limit + " checkbox.");
 				this.checked = false;
 				const g = document.querySelector('#good');
+				const c = document.querySelector('#cheap');
 				if(g.checked){
 					g.checked=false;
+					c.checked=true;
 				}
-				const c = document.querySelector('#cheap');
-				if(c.checked){
-					c.checked=false;
-				}
+				// if(c.checked){
+				// }
 			}
 		}
 	}
