@@ -10,7 +10,7 @@ let limit = 2;
 			}
 			if (checkedcount > limit) {
 				console.log("You can select maximum of " + limit + " checkbox.");
-				alert("You can select maximum of " + limit + " checkbox.");
+				// alert("You can select maximum of " + limit + " checkbox.");
 				this.checked = false;
 			}
 		}
